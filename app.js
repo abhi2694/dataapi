@@ -7,7 +7,7 @@ const morgan = require('morgan');
 const cors = require('cors'); // ! IMPORTANT
 const mongoose=require('mongoose');
 
-mongodb+srv://wheelboxautomotive:wheelboxautomotive12@cluster0-ivq3r.mongodb.net/wheelboxautomotive?retryWrites=true&w=majority
+mongoose.connect('mongodb+srv://wheelboxautomotive:wheelboxautomotive12@cluster0-ivq3r.mongodb.net/wheelboxautomotive?retryWrites=true&w=majorityi', { useNewUrlParser: true });
 
 
 app.use(morgan('dev'))
