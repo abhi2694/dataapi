@@ -7,7 +7,7 @@ const morgan = require('morgan');
 const cors = require('cors'); // ! IMPORTANT
 const mongoose=require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/scooter_api', { useNewUrlParser: true });
+mongodb+srv://wheelboxautomotive:wheelboxautomotive12@cluster0-ivq3r.mongodb.net/wheelboxautomotive?retryWrites=true&w=majority
 
 
 app.use(morgan('dev'))
